@@ -1,0 +1,12 @@
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.AssemblyInfoInputs.cache
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.AssemblyInfo.cs
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.csproj.CoreCompileInputs.cache
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.exe
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.deps.json
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.runtimeconfig.json
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.runtimeconfig.dev.json
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.dll
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.pdb
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.dll
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.pdb
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.genruntimeconfig.cache
