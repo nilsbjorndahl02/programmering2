@@ -21,25 +21,26 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="0" Grid.Column="0"></Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="0" Grid.Column="1"></Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="0" Grid.Column="2"></Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="1" Grid.Column="0">7</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="1" Grid.Column="1">8</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="1" Grid.Column="2">9</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="2" Grid.Column="0">4</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="2" Grid.Column="1">5</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="2" Grid.Column="2">6</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="3" Grid.Column="0">1</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="3" Grid.Column="1">2</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="3" Grid.Column="2">3</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="4" Grid.Column="0">0</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="4" Grid.Column="1">.</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="5" Grid.Column="2">=</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="0" Grid.Column="4" Background="Orange">AC</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="1" Grid.Column="4">\</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="2" Grid.Column="4">*</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="3" Grid.Column="4">-</Button>
-        <Button FontSize="60" FontWeight="Bold" Grid.Row="4" Grid.Column="4">+</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="0" Grid.Column="0"></Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="0" Grid.Column="1"></Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="0" Grid.Column="2"></Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="1" Grid.Column="0">7</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="1" Grid.Column="1">8</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="1" Grid.Column="2">9</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="2" Grid.Column="0">4</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="2" Grid.Column="1">5</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="2" Grid.Column="2">6</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="3" Grid.Column="0">1</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="3" Grid.Column="1">2</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="3" Grid.Column="2">3</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="4" Grid.Column="0">0</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="4" Grid.Column="1">.</Button>
+        <Button Click="EqualsButton" FontSize="60" FontWeight="Bold" Grid.Row="5" Grid.Column="2">=</Button>
+        <Button Click="DeleteButton" FontSize="60" FontWeight="Bold" Grid.Row="0" Grid.Column="4" Background="Orange">AC</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="1" Grid.Column="4">/</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="2" Grid.Column="4">x</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="3" Grid.Column="4">-</Button>
+        <Button Click="ClickButton" FontSize="60" FontWeight="Bold" Grid.Row="4" Grid.Column="4">+</Button>
+        <TextBlock x:Name="MainText" Grid.ColumnSpan="3" FontSize="65" FontWeight="Bold" VerticalAlignment="Center" Background="Gray"></TextBlock>
     </Grid>
 </Window>

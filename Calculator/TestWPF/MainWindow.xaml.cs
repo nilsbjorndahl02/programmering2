@@ -24,5 +24,68 @@ namespace TestWPF
         {
             InitializeComponent();
         }
+        public void ClickButton(object sender, RoutedEventArgs e)
+        {
+            if (e.Source is Button button)
+            {
+                MainText.Text += button.Content;
+            }
+        }
+                private void EqualsButton(Object sender, RoutedEventArgs e)
+                {
+                    if (MainText.Text.Contains("+"))
+                    {
+                        MainText.Text = Addition();
+                    }
+                    else if (MainText.Text.Contains("-"))
+                    {
+                        MainText.Text = Subtraction();
+                    }
+                    else if (MainText.Text.Contains("x"))
+                    {
+                        MainText.Text = Multiplication();
+                    }
+                    else if (MainText.Text.Contains("/"))
+                    {
+                        MainText.Text = Division();
+                    }
+                }
+                private string Addition()
+                {
+                    var numbers = MainText.Text.Split("+");
+                    var number1 = Convert.ToDouble(numbers[0]);
+                    var number2 = Convert.ToDouble(numbers[1]);
+                    var sum = number1 + number2;
+                    return sum + "";
+                }
+                private string Subtraction()
+                {
+                    var numbers = MainText.Text.Split("-");
+                    var number1 = Convert.ToDouble(numbers[0]);
+                    var number2 = Convert.ToDouble(numbers[1]);
+                    var sum = number1 - number2;
+                    return sum + "";
+                }
+                private string Multiplication()
+                {
+            var numbers = MainText.Text.Split("x");
+                    var number1 = Convert.ToDouble(numbers[0]);
+                    var number2 = Convert.ToDouble(numbers[1]);
+                    var sum = number1 * number2;
+                    return sum + "";
+                }
+                private string Division()
+                {
+                    var numbers = MainText.Text.Split("/");
+                    var number1 = Convert.ToDouble(numbers[0]);
+                    var number2 = Convert.ToDouble(numbers[1]);
+                    var sum = number1 / number2;
+                    return sum + "";
+                }
+                private void DeleteButton(Object sender, RoutedEventArgs e)
+                {
+                    MainText.Text = "";
+
+                }
     }
 }
